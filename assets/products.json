@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Produto 1",
+        "price": "R$ 99,90",
+        "image": "https://via.placeholder.com/200x200"
+    },
+    {
+        "id": 2,
+        "name": "Produto 2",
+        "price": "R$ 129,90",
+        "image": "https://via.placeholder.com/200x200"
+    },
+    {
+        "id": 3,
+        "name": "Produto 3",
+        "price": "R$ 49,90",
+        "image": "https://via.placeholder.com/200x200"
+    },
+    {
+        "id": 4,
+        "name": "Produto 4",
+        "price": "R$ 199,90",
+        "image": "https://via.placeholder.com/200x200"
+    }
+]
