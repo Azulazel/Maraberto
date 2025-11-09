@@ -30,4 +30,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 productGrid.innerHTML = '<p>Não foi possível carregar os produtos. Tente novamente mais tarde.</p>';
             });
     }
+
+    const promoBannerBtn = document.getElementById('promo-banner-btn');
+    const productsSection = document.getElementById('products-section');
+
+    if (promoBannerBtn && productsSection) {
+        promoBannerBtn.addEventListener('click', () => {
+            productsSection.scrollIntoView({ behavior: 'smooth' });
+        });
+    }
 });
